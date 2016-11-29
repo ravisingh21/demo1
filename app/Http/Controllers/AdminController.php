@@ -8,35 +8,16 @@ use App\Http\Requests;
 
 class AdminController extends Controller
 {
-  public function Login(){
-    return view('admin.posts');
-  }
-    public function Home(){
-      return view('admin.posts');
+    public function index(){
+      return view('admin.index');
     }
 
-    public function Post(){
-      return view('admin.edit_posts');
-    }
-    public function Admin(){
-      return view('admin.admin');
+    public function getPost(){
+      return view('admin.posts.index');
     }
 
-    public function postAdmin(){
-      return view('admin.admin');
+    public function getCategory(){
+      return view('admin.category.index');
     }
 
-    public function Event(){
-      return view('admin.event');
-    }
-    public function postEvent(){
-      return view('admin.event');
-    }
-
-    public function Status(){
-      return view('admin.post_status');
-    }
-    public function postStatus(){
-      return view('admin.post_status');
-    }
 }

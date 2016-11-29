@@ -8,12 +8,12 @@ use App\Http\Requests;
 
 class PageController extends Controller
 {
-    public function Login(){
-      return view('pages.login');
+    public function index(){
+      return view('pages.index');
     }
 
-    public function Home(){
-      return view('pages.home');
+    public function Login(){
+      return view('pages.login');
     }
 
     public function Like(){

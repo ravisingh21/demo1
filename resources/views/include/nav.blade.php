@@ -7,13 +7,8 @@
   <li role="presentation" class="active"><a href="/" class="btn">Nai Sadak </a></li>
   <li role="presentation" class="active"><a href="/feedback" class="btn glyphicon glyphicon-send"> Send your posts and feedback here!! </a></li>
 
-
   <ul class="nav nav-tabs pull-right">
-  <li role="presentation"><a href="/like" class=" btn glyphicon glyphicon-thumbs-up" ></a></li>
-  <li role="presentation"><a href="/dislike" class=" btn glyphicon glyphicon-thumbs-down" ></a></li>
-  <li role="presentation"><a href="/community" class=" btn glyphicon glyphicon-tasks" ></a></li>
-  <li role="presentation"><a href="/login" class=" btn glyphicon glyphicon-log-in" > Login</a></li>
+   <li role="presentation"><a href="/login" class=" btn glyphicon glyphicon-log-in" > Login</a></li>
+  </ul>
 
-
-</ul>
 </ul>
