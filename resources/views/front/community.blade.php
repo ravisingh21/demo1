@@ -17,21 +17,25 @@
     </div>
     <div class="panel-body">
       <p><b>Upcoming Events</b></p>
+    </div  @for($i= 1; $i <= 3; $i++)
+    <div class="panel-body">
+      <p><b>Event {{$i}}</b></p>
     </div>
         <ul class="list-group">
-        @for($i= 1; $i <= 3; $i++)
-        <li class="list-group-item">Message by- GUEST NAME<a href="/community">Delete</a> | <a href="/community">Edit</a></li>
-        @endfor
+          <li class="list-group-item">Comment by- GUEST NAME  <a href="/community">Delete</a> | <a href="/community">Edit</a></li>
         </ul>
-
+          @endfor
     <div class="panel-body">
       <p><b>Past Events</b></p>
     </div>
+      @for($i= 1; $i <= 3; $i++)
+    <div class="panel-body">
+      <p><b>Event {{$i}}</b></p>
+    </div>
         <ul class="list-group">
-          @for($i= 1; $i <= 3; $i++)
-          <li class="list-group-item">Message by- GUEST NAME<a href="/community">Delete</a> | <a href="/community">Edit</a></li>
-          @endfor
+          <li class="list-group-item">Comment by- GUEST NAME  <a href="/community">Delete</a> | <a href="/community">Edit</a></li>
         </ul>
+          @endfor
   </div>
 
 

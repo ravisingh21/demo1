@@ -12,6 +12,7 @@
   <body>
     <div class="container">
       @include('include.nav_admin')
+  <!--@include('include.table_admin')-->
     </div>
     <br><br>
     <div class="container">

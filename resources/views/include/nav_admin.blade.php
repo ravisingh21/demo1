@@ -2,7 +2,9 @@
   <li role="presentation" class="active"><a href="/admin" class=" btn glyphicon glyphicon-menu-hamburger"> Admin</a></li>
   <li role="presentation"><a href="/admin/posts" class=" btn glyphicon glyphicon-bullhorn"> Manage Posts</a></li>
   <li role="presentation"><a href="/admin/category" class=" btn glyphicon glyphicon-bullhorn"> Manage Categories</a></li>
+  <li role="presentation"><a href="/" class=" btn glyphicon glyphicon-log-out" > Logout</a></li>
 
+  <input class="form-control " type="text" placeholder="Search">
   <!--
   <li role="presentation" ><a href="/admin/attach_files" class=" btn glyphicon glyphicon-folder-open"> Attach File</a></li>
   <li role="presentation" ><a href="/admin/kasba" class="btn">Kasba</a></li>
@@ -15,6 +17,5 @@
   <li role="presentation"><a href="/admin/post" class=" btn glyphicon glyphicon-bullhorn" > Post</a></li>
   <li role="presentation"><a href="/admin/post_status" class=" btn glyphicon glyphicon-stats" ></a></li>
   <li role="presentation"><a href="/admin/event" class=" btn glyphicon glyphicon-calendar" > Event</a></li>-->
-  <li role="presentation"><a href="/" class=" btn glyphicon glyphicon-log-out" > Logout</a></li>
 </ul>
-</ul>
+<br><br>
